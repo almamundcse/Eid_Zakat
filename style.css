@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+*{
+    box-sizing: 0;
+}
 .main{
     width: 1270px;
     margin: auto;
@@ -63,6 +66,7 @@ body{
  }
   p{
      color: rgb(95, 93, 93);
+     font-size: 17px;
  }
  .donation-video{
     width: 400px;
@@ -70,16 +74,16 @@ body{
     margin-left: 50px;
 }
 .thrid-part{
-    width: 1270px;
+    width: 100%;
     height: 500px;
-    margin-top: 30px;
+    margin-top: 70px;
     display: flex;
-    border: 1px solid green;
 }
 .man-photo{
     width: 400px;
     height: 500px;
     margin-left: 210px;
+    border-radius: 7px;
     background-image: url("image/man.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,5 +95,142 @@ body{
 }
 .thrid-text h1{
     font-size: 50px;
-     padding-top: 20px;
+     padding-top: 5px;
+}
+.blog{
+    width: 650px;
+    height: 320px;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+.blog h1{
+    font-size: 55px;
+    padding-top: 45px;
+}
+.artical{
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+    display: flex;
+}
+.half-width{
+    width: 400px;
+    height: 650px;
+    margin-left: 220px;
+}
+.half-width-text{
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    background-color: rgb(250, 240, 242);
+    display: flex;
+    box-shadow: 10px 10px 20px rgb(235, 227, 227);
+    border-radius: 7px;
+}
+.logo{
+    width: 100px;
+    height: 250px;
+}
+.logo-image{
+    padding-top:25px;
+    padding-left: 13px;
+}
+.logo-text{
+    width: 300px;
+    height: 250px;
+    padding-left: 20px;
+}
+.logo-text h1{
+    font-size: 40px;
+}
+.logo-text p{
+    font-size: 20px;
+}
+.half-width1{
+    width: 400px;
+    height: 650px;
+    margin-left: 30px;
+}
+.man-picture{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+}
+.picture{
+    width: 320px;
+    height: 450px;
+    box-shadow: 10px 10px 30px goldenrod;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#picture-left{
+    margin-left: 115px;
+}
+.man-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.blog1{
+    width: 750px;
+    height: 320px;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+}  
+.blog1 h1{
+    font-size: 50px;
+    padding-top: 30px;
+} 
+.articla-blog{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.zakat{
+    width: 320px;
+    height: 600px;
+    box-shadow: 10px 10px 30px lightcyan;
+    border: 0.2px solid rgb(218, 215, 215);
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.zakat-picture{
+    width: 100%;
+    height: 250px;
+    background-image: url("image/images (3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.zakat-fund{
+    width: 100%;
+    height: 350px;
+}
+.zakat-fund h2{
+    font-size: 30px;
+    padding: 10px 15px;
+}
+.zakat-fund p{
+    padding-left: 15px;
+}
+.anchor{
+    color: red;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: black;
+}
+footer h1{
+    font-family: ' lobster ' , cursive;
+    color: lightcoral;
+    padding-top: 60px;
+}
+footer p{
+    color: lightblue;
 }
